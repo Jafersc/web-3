@@ -38,15 +38,20 @@ header .name {
 }
 header .navigation a {
   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
   color: goldenrod;
   position: relative;
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
+  padding: 15px;
+  
 }
 
+header .navigation a:hover{
+    color: #fff;
+    transition: 0.2s;
+}
 .info {
   display: flex;
   justify-content: space-between;
@@ -59,9 +64,76 @@ header .navigation a {
 }
 
 .USD {
-  border: 2px;
-  border-color: #333;
-  padding: 5px;
+  border: 3px solid goldenrod;
+  padding: 25px 55px;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 25px;
+  color: goldenrod;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+}
+
+.facebook{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    padding: 20px;
+    background-color: #282929;
+    border-radius: 9px;
+    margin-left: 40px;
+    
+   
+   
+}
+
+.insta{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    padding: 20px;
+    background-color: #282929;
+    border-radius: 9px;
+    margin-left: 40px;
+  
+   
+}
+
+.phone{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    padding: 20px;
+    background-color: #282929;
+    border-radius: 9px;
+    margin-left: 40px;
+   
+}
+
+.facebook:hover{
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.insta:hover{
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.phone:hover{
+    background-color: #fff;
+    transition: 0.3s;
+}
+.timer{
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    background-color: #282929;
+    border-radius: 5px;
+    margin-left: 10px;
+   
+   
+}
+
+.language{
+    background-color: goldenrod;
 }
 
 .middle {
@@ -69,10 +141,10 @@ header .navigation a {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  border-radius: 20%;
   margin-top: 20px;
   padding: 16px;
   gap: 8px;
+  margin-left: 50px;
 }
 
 table {
@@ -81,20 +153,25 @@ table {
   border-collapse: collapse;
   margin-top: 40px;
   align-items: center;
+  font-size: 50px;
+
 }
 
 th,
 td {
   border: 2px solid black;
-  padding: 10px;
+  padding: 20px;
   align-items: center;
-  width: 200px;
+  width: 350px;
+  text-align: center;
 }
 
 th {
   background-color: #333;
-  color: #fff;
-  width: 200px;
+  color: goldenrod;
+  width: 350px;
+  text-transform: uppercase;
+  border-bottom: 2.5px;
 }
 
 thead {
